@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* --------------------------- HTML TAG STYLES ----------------------------- */
+body {margin: 0px;padding: 0px;color: #333;}
+p {font-size: 14px;margin-bottom: 20px;line-height: 1.58em;}
+h4 {padding: 10px 0;font-weight: bold;}
+blockquote {display: block;font-size: 14px;margin-top: 1em;margin-bottom: 1em;margin-left: 40px;margin-right: 40px;line-height: 1.2;}
+table {border-collapse:collapse;}
+a:link {color: #FFD700;}
+a:visited {color: #FFD700;}
+a:hover {color: #333;text-decoration: none;}
+/* -------------------------- PAGE SECTIONS ---------------------------- */
+#splash {background: url(images/dna.jpg) no-repeat center top fixed;background-size: 101%;height: 640px;}
+#overview {padding: 40px 0 60px 0;background-color: #fff;color: #000;}
+#podcast {padding: 40px 0 60px 0;background-color: #000;color: #FFD700}
+#references {padding: 40px 0 60px 0;	background-color: #fff;color: #000;}
+#footer{background-color: #000;color: #fff;padding: 5px 0;}
+/* ---------------- CONTAINER STYLES ----------------- */
+.container {width: 960px;margin: 0 auto;overflow: hidden;}
+.half_container {width: 50%;float: left;overflow: hidden;}
+/* ----------------- NAVIGATION BAR STYLES -------------------*/ 
+#navbar{position: fixed;top: 0;width: 100%;height: 32px;background-color: #000;}	
+ul#menu {list-style: none;padding-top: 0px;} 
+ul#menu li {float: left;padding-bottom: 16px;} 
+ul#menu li a.button {font-size: 14px;color: #FFD700;position: relative;bottom: 11px;text-decoration: none;padding: 10px 100px 10px 100px; }
+ul#menu li a.button:hover {background-color: rgba(255, 255, 255, .5);}
+/* ---------------- TITLE PAGE STYLES ------------------- */
+#title-page{width: 100%;padding-top: 180px; color: #FFF;text-align: right;}
+#title-page h1 {font-family: 'Raleway', sans-serif;font-size: 74px;text-shadow: 2px 2px #000; }
+#title-page h3 {font-size: 1.2em;font-style: italic;margin: 0 12px;padding-bottom: 20px;text-shadow: 1px 1px #000;}
+/* ------------------- FOOTER CREDITS --------------------- */
+#credits {text-align: center;}
+#credits table{margin: 0 auto;}
+#credits p {font-size: 12px;margin: 5px 0;}
+/* ---------------------- MISC -----------------------------*/
+#mic{display: block;margin-left: auto;margin-right: auto;margin-bottom: 32px;}
+.fltright{float:right;margin: 15px 15px 0px 15px;}
+.fltleft{float:left;margin: 0px 10px 10px 0;}
+.btn {background-color: #FFD700;border: none;color: white;padding: 10px 25px;font-size: 14px;cursor: pointer;}
+.btn:hover { background-color: #ccc;}
+#down{margin-left: auto;margin-right: auto;overflow: hidden;}
+#playlist{overflow: hidden;margin-left: auto;margin-right: auto;display: table;}
+table{margin-top: 10px;margin-bottom: 12px;}
+#flyer {border: 1px solid #ffd700;border-radius: 4px;padding: 5px;width: 70px;}
+#flyer:hover {box-shadow: 1px 1px 1px 1px rgba(255, 215, 0, 0.25);}
+/* ---------------------- MEDIA-QUERIES-----------------------------*/
+@media screen and (max-width: 1080px) {
+	.container {width: 90%;}
+	ul#menu li a.button {padding: 21px 60px;}
+	iframe {width: 90%;}
+	#splash {height: 520px;background-size: 1060px;}	
+	#title-page{padding-top: 200px;}
+	#title-page h1 {font-family: 'Raleway', sans-serif;font-size: 60px; 	}
+	#title-page h3 {font-size: .95em;}
+	#flyer {width: 75px;}
+	}
+@media screen and (max-width: 680px) {
+	ul#menu li a.button {padding: 20px 10px; }
+	img{width: 90%;height: auto;}
+	.half_container {width: 80%;float: none;margin-left: auto;margin-right: auto;}
+	#mic{width: 200px;}
+	#credits img{width: 100px;	}
+	#splash {height: 350px;background-size: 767px;}	
+	#title-page{padding-top: 40px; }
+	#title-page h1 {font-family: 'Raleway', sans-serif;font-size: 50px; 	}
+	h1{font-size: 30px; }
+	h3{font-size: 21px; }
+	#title-page h3 {font-size: .9em;}
+	p {font-size: 14px;margin-bottom: 15px;line-height: 1.5em;}
+	li{font-size: 13.5px;}
+	.fltright{float:right;margin: 15px;}
+}
+@media screen and (max-width: 480px) {
+	ul#menu li a.button {font-size: .65em;padding: 4px; }
+	#splash {height: 225px;background-size: 480px;}
+	#title-page{padding-top: 20px; }
+	#title-page h1 {font-family: 'Raleway', sans-serif;font-size: 30px;margin-right: 2px;}
+	#title-page h3{margin-right: 2px;}
+	#title-page img {height: 0;visibility:hidden;}
+	#mic{width: 87%;}
+	#flyer {width: 75px;}
+	h1{font-size: 28px; }
+	h3{font-size: 20px;}
+   .fltright{float:right;margin: 10px;}
+	.btn{font-size: 13.25px;}
+}
