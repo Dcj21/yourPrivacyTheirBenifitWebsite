@@ -9,7 +9,7 @@ a:link {color: #FFD700;}
 a:visited {color: #FFD700;}
 a:hover {color: #333;text-decoration: none;}
 /* -------------------------- PAGE SECTIONS ---------------------------- */
-#splash {background: url(images/dna.jpg) no-repeat center top fixed;background-size: contain;height: 720px;}
+#splash {background: url(images/dna.jpg) no-repeat center top fixed;background-size: 101%;height: 720px;}
 #overview {padding: 40px 0 60px 0;background-color: #fff;color: #000;}
 #podcast {padding: 40px 0 60px 0;background-color: #000;color: #FFD700}
 #references {padding: 40px 0 60px 0;	background-color: #fff;color: #000;}
