@@ -24,7 +24,7 @@ ul#menu li {float: left;padding-bottom: 16px;}
 ul#menu li a.button {font-size: 14px;color: #FFD700;position: relative;bottom: 11px;text-decoration: none;padding: 10px 100px 10px 100px; }
 ul#menu li a.button:hover {background-color: rgba(255, 255, 255, .5);}
 /* ---------------- TITLE PAGE STYLES ------------------- */
-#title-page{width: 100%;padding-top: 180px; color: #FFF;text-align: right;}
+#title-page{width: 100%;padding-top: 180px; color: #ececec;text-align: right;}
 #title-page h1 {font-family: 'Raleway', sans-serif;font-size: 74px;text-shadow: 2px 2px #000; }
 #title-page h3 {font-size: 1.2em;font-style: italic;margin: 0 12px;padding-bottom: 20px;text-shadow: 1px 1px #000;}
 /* ------------------- FOOTER CREDITS --------------------- */
